@@ -82,13 +82,10 @@ namespace ConsoleApp5
         {
             for (int i = 1; i <= 10; i++)
             {
-                // Iterate over columns
                 for (int j = 1; j <= 10; j++)
                 {
-                    // Calculate the product and print
                     Console.Write($"{i * j,4}");
                 }
-                // Move to the next row
                 Console.WriteLine();
             }
         }
